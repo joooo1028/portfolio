@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e8f3693b.css",
+    "main.js": "/portfolio/static/js/main.79981125.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/samsungMockup.png": "/portfolio/static/media/samsungMockup.57d9b7b564739068c6e2.png",
+    "static/media/cjonewebMockup.png": "/portfolio/static/media/cjonewebMockup.f0253cf101c91988c1eb.png",
+    "static/media/빙그레web.png": "/portfolio/static/media/빙그레web.201adfab140f057c3bd8.png",
+    "static/media/cjonemobMockup.png": "/portfolio/static/media/cjonemobMockup.6030aff2edb5a1a4020f.png",
+    "static/media/landdingMockup.png": "/portfolio/static/media/landdingMockup.1d92cbb1b6751202f9a3.png",
+    "static/media/cjonetabMockup.png": "/portfolio/static/media/cjonetabMockup.0756457531fdd393c92b.png",
+    "static/media/빙그레mob.png": "/portfolio/static/media/빙그레mob.c765c32265af76415246.png",
+    "static/media/빙그레tab.png": "/portfolio/static/media/빙그레tab.bcfa870d9b95671d18ac.png",
+    "static/media/w3.png": "/portfolio/static/media/w3.727fbf53779c5fd3dc7b.png",
+    "static/media/apprecipemenu.png": "/portfolio/static/media/apprecipemenu.7d66f5c9d40ec7da8ec8.png",
+    "static/media/appdetailpage.png": "/portfolio/static/media/appdetailpage.7f1b37575c8e9cc72b29.png",
+    "static/media/applikelist.png": "/portfolio/static/media/applikelist.f45ff22ea9526d343e7d.png",
+    "static/media/웹접근성.png": "/portfolio/static/media/웹접근성.ca6c455265c2e6adabd9.png",
+    "static/media/appmypage.png": "/portfolio/static/media/appmypage.2fca7275b8a0e94ac991.png",
+    "static/media/아이패드.png": "/portfolio/static/media/아이패드.3bd3730d213229aeed00.png",
+    "static/media/appmain.png": "/portfolio/static/media/appmain.cb30f7c12a97d2d37b7b.png",
+    "static/media/appchat.png": "/portfolio/static/media/appchat.2bafb4a3f449ae30da3e.png",
+    "static/media/applogin.png": "/portfolio/static/media/applogin.c36d311e1954b8b7b2ed.png",
+    "static/media/iPhonemockup.png": "/portfolio/static/media/iPhonemockup.5178d2b73e3f03cfd527.png",
+    "static/media/appmenu.png": "/portfolio/static/media/appmenu.813fbf0911c8a545a94f.png",
+    "index.html": "/portfolio/index.html",
+    "main.e8f3693b.css.map": "/portfolio/static/css/main.e8f3693b.css.map",
+    "main.79981125.js.map": "/portfolio/static/js/main.79981125.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8f3693b.css",
+    "static/js/main.79981125.js"
+  ]
+}
