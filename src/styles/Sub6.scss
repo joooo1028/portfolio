@@ -1,0 +1,89 @@
+@import url(reset.css);
+
+div.sub6{
+    h2{
+        color: #00b0ff;
+    }
+    span.site{
+        border: 2px solid #707070;
+        background: #fff;
+        &:hover{
+            background: #eee;
+        }
+    }
+    position: relative;
+    width: 1690px;
+    height: 950px;
+    margin: 45px auto;
+    background: #fff;
+    padding-bottom: 35px;
+    section{
+        position: relative;
+        width: 95%;
+        height: 752px;
+        margin: 0 auto;
+        background: #e8e8e8;
+        border-radius: 35px;
+        div.app_slide{
+            width: 1300px;
+            margin: 0 auto;
+            overflow: hidden;
+            span.mockup{
+                z-index: 1;
+                display: inline-block;
+                position: absolute;
+                top: 35px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            ul.screen{
+                width: 2500px;
+                &::after{
+                    display: block;
+                    content: "";
+                    clear: both;
+                }
+                li{
+                    img{
+                        width: 250px;
+                    }
+                    float: left;
+                    margin: 50px 15px 0;
+                }
+            }
+
+        }
+        ul.app_menu{
+            z-index: 3;
+            position: absolute;
+            width: 1400px;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: inline-block;
+            background: #f1f1f1;
+            border-radius: 48px;
+            &::after{
+                display: block;
+                content: "";
+                clear: both;
+            }
+            li{
+                float: left;
+                margin-right: 30px;
+                padding: 15px 24px;
+                font-size: 25px;
+                font-weight: 600;
+                cursor: pointer;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+            li.on{
+                background: #fff;
+                border-radius: 35px;
+                box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            }
+        }
+    }
+}

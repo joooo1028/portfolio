@@ -1,0 +1,14 @@
+@import url(./reset.css);
+
+div.ipadlayout{
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1920px;
+    height: 1080px;
+    border-radius: 85px;
+    background: url(../images/아이패드.png) no-repeat 0 0;
+    background-size: cover;
+    
+}

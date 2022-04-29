@@ -1,0 +1,144 @@
+@import url(./reset.css);
+div.sub2{
+    position: relative;
+    width: 1690px;
+    height: 950px;
+    margin: 45px auto;
+    background: #e8e8e8;
+    padding-bottom: 35px;
+    h2{
+        color: #00b0ff;
+    }
+    section.skill{
+        position: relative;
+        width: 95%;
+        height: 752px;
+        margin: 0 auto;
+        background: #fff;
+        border: solid 2px #707070;
+        border-radius: 35px;
+        span.pin{
+            z-index: 3;
+            position: absolute;
+            right: 15px;
+            top: 0px;
+            cursor: pointer;
+        }
+        ul.skill_level{
+            padding:70px 90px;
+            list-style: disc;
+            li{
+                font-size: 36px;
+                font-weight: 600;
+                margin-bottom: 90px;
+                span{
+                    &:nth-of-type(2){
+                        margin-left: 35px;
+                    }
+                }
+                &:nth-child(1){
+                    span{
+                        &:nth-of-type(1){
+                            margin-left: 80px;
+                            display: inline-block;
+                            width: 70%;
+                            height: 25px;
+                            background-color: #ffcbcb;
+                        }
+                    }
+                        
+                }
+                &:nth-child(2){
+                    span{
+                        &:nth-of-type(1){
+                            margin-left: 118px;
+                            display: inline-block;
+                            width: 60%;
+                            height: 25px;
+                            background-color: #fff5cb;
+                        }
+                    }
+                }
+                &:nth-child(3){
+                    span{
+                        &:nth-of-type(1){
+                            margin-left: 62px;
+                            display: inline-block;
+                            width: 50%;
+                            height: 25px;
+                            background-color: #cbffce;
+                        }
+                    }
+                }
+                &:nth-child(4){
+                    span{
+                        &:nth-of-type(1){
+                            margin-left: 15px;
+                            display: inline-block;
+                            width: 50%;
+                            height: 25px;
+                            background-color: #cbedff;
+                        }
+                    }
+                }
+                &:nth-child(5){
+                    span{
+                        &:nth-of-type(1){
+                            margin-left: 90px;
+                            display: inline-block;
+                            width: 50%;
+                            height: 25px;
+                            background-color: #f5cbff;
+                        }
+
+                    }
+                }
+
+            }
+        }
+        div.profile{
+            display: none;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            width: 735px;
+            height: 425px;
+            padding-left: 25px;
+            background: #fff8cb;
+            box-sizing: border-box;
+            
+            h3{
+                font-size: 35px;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 15px;
+            }
+            ul{
+                margin-top: 30px;
+                li{
+                   font-size: 30px;
+                   font-weight: 600; 
+                   margin-bottom: 15px;
+                   span{
+                       font-weight: 500;
+                   }
+                }
+            }
+            q{
+                position: absolute;
+                bottom: 50px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 550px;
+                font-size: 30px;
+                font-weight: 500;
+                &::after{
+                    content: close-quote;
+                }
+                &::before{
+                    content: open-quote;
+                }
+            }
+        }
+    }
+}

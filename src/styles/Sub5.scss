@@ -1,0 +1,73 @@
+@import url(./reset.css);
+div.sub5{
+    h2{
+        color: #ff94f1;
+    }
+    span.site{
+        border: 2px solid #707070;
+        background: #fff;
+        &:hover{
+            background: #eee;
+        }
+    }
+    position: relative;
+    width: 1690px;
+    height: 950px;
+    margin: 45px auto;
+    background: #e8e8e8;
+    padding-bottom: 35px;
+    section{
+        position: relative;
+        width: 95%;
+        height: 752px;
+        margin: 0 auto;
+        background: #fff;
+        border: solid 2px #707070;
+        border-radius: 35px;
+        dl{
+            dt{
+                position: absolute;
+                &:nth-of-type(1){
+                    top: 50px;
+                    left: 3%;
+                    img{
+                        width: 330px;
+                    }
+
+                }
+                &:nth-of-type(2){
+                    top: 150px;
+                    left: 50%;
+                    transform: translateX(-55%);
+                    img{
+                        width: 550px;
+                    }
+                }
+                &:nth-of-type(3){
+                    top: 70px;
+                    right: 3%;
+                    img{
+                        width: 380px;
+                    }
+                }
+            }
+            dd{
+                position: absolute;
+                bottom: 50px;
+                font-size: 35px;
+                font-weight: bold;
+                &:nth-of-type(1){
+                    left: 11%;
+                }
+                &:nth-of-type(2){
+                    left: 46%;
+            
+                }
+                &:nth-of-type(3){
+                    right: 13%;
+                }
+            }
+        }
+
+    }
+}
